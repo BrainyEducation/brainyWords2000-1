@@ -81,7 +81,8 @@ body {
 }
 
 .rectangle {
-    height: 250px;
+    /* height: 250px; Remove to create square quiz tiles*/
+    margin-bottom: 40px;
 }
 
 .helper {
@@ -92,6 +93,8 @@ body {
 .option {
     height: 90%;
     width: 90%;
+    padding: 30px;
+    
     border-radius: 10px;
     background-color: white;
     box-shadow: -3px 3px 10px -3px;
@@ -407,6 +410,7 @@ special styling for small (mobile) screens (portrait)
 
     .rectangle {
         height: 95px;
+        margin-bottom: 20px;
     }
 
     #top-left {
@@ -452,6 +456,9 @@ special styling for small (mobile) screens (portrait)
 
     #keyStacked {
         display: block;
+    }
+    .option {
+        padding: 0;
     }
 }
 
@@ -532,6 +539,7 @@ h2 {
     .option {
         /*width: 270px;*/
         height: 90%;
+        padding: 0;
     }
 
 
